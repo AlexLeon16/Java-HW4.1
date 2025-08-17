@@ -44,8 +44,7 @@ public class BonusServiceTest {
 
     @Test
     void shouldCalculateForUnregisteredAndOverLimit() {
-        BonusServ
-        ice service = new BonusService();
+        BonusService service = new BonusService();
 
         long amount = 100_000;
         boolean registered = false;
